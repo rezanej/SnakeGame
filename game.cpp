@@ -4,6 +4,7 @@ Game::Game()
 {
     cursesInitialization();
     windowInitialization();
+
     getch();
 }
 Game::~Game()
@@ -18,7 +19,12 @@ void Game::cursesInitialization()
 }
 void Game::windowInitialization()
 {
-    WINDOW *mainWindow=newwin(windowHeight,windowWidth,windowStartRow,windowStartColumn);
+    mainWindow=newwin(windowHeight,windowWidth,windowStartRow,windowStartColumn);
     keypad(mainWindow,true);
     box(mainWindow,0,0);
+    refresh();
+    wrefresh(mainWindow);
+}
+void Game:: input()
+{
 }
