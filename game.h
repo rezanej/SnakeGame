@@ -5,6 +5,7 @@
 #ifndef PDCURSES_GAME_H
 #define PDCURSES_GAME_H
 #include <curses.h>
+#include "player.h"
 class Game{
 public:
     Game();
@@ -19,6 +20,7 @@ private:
     void windowInitialization();
     void input();
     void logic();
+    void showPlayer(Player);
 
 };
 #endif //PDCURSES_GAME_H

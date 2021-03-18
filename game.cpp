@@ -1,10 +1,12 @@
 #include "game.h"
-#include <curses.h>
+#include <player.h>
 Game::Game()
 {
+    Player snake;
     cursesInitialization();
     windowInitialization();
-
+    showPlayer(snake);
+    refresh();
     getch();
 }
 Game::~Game()
@@ -27,4 +29,16 @@ void Game::windowInitialization()
 }
 void Game:: input()
 {
+}
+void Game::showPlayer( Player snake)
+{
+    for(int i=0;i<snake.getBody().size()-1;i++)
+    {
+        mvwprintw(mainWindow, snake.getBody()[i].getRow(), snake.getBody()[i].getColumn(), "o");
+    }
+        mvwprintw(mainWindow, snake.getBody()[snake.getBody().size()-1].getRow(), snake.getBody()[snake.getBody().size()-1].getColumn(), "O");
+
+    wrefresh(mainWindow);
+    refresh();
+
 }
