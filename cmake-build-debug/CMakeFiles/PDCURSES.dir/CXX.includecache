@@ -29,30 +29,28 @@ windows.h
 -
 direction.h
 C:/Users/rezan/CLionProjects/PDCURSES/direction.h
+goal.h
+C:/Users/rezan/CLionProjects/PDCURSES/goal.h
+score.h
+C:/Users/rezan/CLionProjects/PDCURSES/score.h
 
 C:/Users/rezan/CLionProjects/PDCURSES/game.h
 curses.h
 -
 player.h
 C:/Users/rezan/CLionProjects/PDCURSES/player.h
+goal.h
+C:/Users/rezan/CLionProjects/PDCURSES/goal.h
+score.h
+C:/Users/rezan/CLionProjects/PDCURSES/score.h
 
-C:/Users/rezan/CLionProjects/PDCURSES/main.cpp
-game.h
-C:/Users/rezan/CLionProjects/PDCURSES/game.h
-
-C:/Users/rezan/CLionProjects/PDCURSES/player.cpp
-player.h
-C:/Users/rezan/CLionProjects/PDCURSES/player.h
-
-C:/Users/rezan/CLionProjects/PDCURSES/player.h
-vector
--
+C:/Users/rezan/CLionProjects/PDCURSES/goal.h
 point.h
 C:/Users/rezan/CLionProjects/PDCURSES/point.h
-direction.h
-C:/Users/rezan/CLionProjects/PDCURSES/direction.h
-windows.h
--
 
-C:/Users/rezan/CLionProjects/PDCURSES/point.h
+C:/Users/rezan/CLionProjects/PDCURSES/score.h
+goal.h
+C:/Users/rezan/CLionProjects/PDCURSES/goal.h
+player.h
+C:/Users/rezan/CLionProjects/PDCURSES/player.h
 

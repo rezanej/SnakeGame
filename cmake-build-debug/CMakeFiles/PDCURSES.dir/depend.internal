@@ -10,12 +10,20 @@ CMakeFiles/PDCURSES.dir/game.cpp.obj
  C:/Users/rezan/CLionProjects/PDCURSES/direction.h
  C:/Users/rezan/CLionProjects/PDCURSES/game.cpp
  C:/Users/rezan/CLionProjects/PDCURSES/game.h
+ C:/Users/rezan/CLionProjects/PDCURSES/goal.h
+ C:/Users/rezan/CLionProjects/PDCURSES/score.h
+CMakeFiles/PDCURSES.dir/goal.cpp.obj
+ C:/Users/rezan/CLionProjects/PDCURSES/goal.cpp
+ C:/Users/rezan/CLionProjects/PDCURSES/goal.h
+ C:/Users/rezan/CLionProjects/PDCURSES/point.h
 CMakeFiles/PDCURSES.dir/main.cpp.obj
  C:/Users/rezan/CLionProjects/PDCURSES/direction.h
  C:/Users/rezan/CLionProjects/PDCURSES/game.h
+ C:/Users/rezan/CLionProjects/PDCURSES/goal.h
  C:/Users/rezan/CLionProjects/PDCURSES/main.cpp
  C:/Users/rezan/CLionProjects/PDCURSES/player.h
  C:/Users/rezan/CLionProjects/PDCURSES/point.h
+ C:/Users/rezan/CLionProjects/PDCURSES/score.h
 CMakeFiles/PDCURSES.dir/player.cpp.obj
  C:/Users/rezan/CLionProjects/PDCURSES/direction.h
  C:/Users/rezan/CLionProjects/PDCURSES/player.cpp
@@ -24,3 +32,10 @@ CMakeFiles/PDCURSES.dir/player.cpp.obj
 CMakeFiles/PDCURSES.dir/point.cpp.obj
  C:/Users/rezan/CLionProjects/PDCURSES/point.cpp
  C:/Users/rezan/CLionProjects/PDCURSES/point.h
+CMakeFiles/PDCURSES.dir/score.cpp.obj
+ C:/Users/rezan/CLionProjects/PDCURSES/direction.h
+ C:/Users/rezan/CLionProjects/PDCURSES/goal.h
+ C:/Users/rezan/CLionProjects/PDCURSES/player.h
+ C:/Users/rezan/CLionProjects/PDCURSES/point.h
+ C:/Users/rezan/CLionProjects/PDCURSES/score.cpp
+ C:/Users/rezan/CLionProjects/PDCURSES/score.h

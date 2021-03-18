@@ -2,12 +2,14 @@
 #include <player.h>
 #include <windows.h>
 #include "direction.h"
+#include "goal.h"
+#include "score.h"
 Game::Game()
 {
-
     cursesInitialization();
     windowInitialization();
-    showPlayer(snake);
+    showPlayer();
+
     while (true)
     {
         if (input()==0)
@@ -15,8 +17,11 @@ Game::Game()
         wclear(mainWindow);
         box(mainWindow,0,0);
         snake.autoMove();
-        showPlayer(snake);
+        showPlayer();
+        showGoal();
+        score.checkAddScore(goal,snake);
 
+        showScore();
         wrefresh(mainWindow);
         refresh();
     }
@@ -66,7 +71,7 @@ int Game:: input()
     else return 5;
 
 }
-void Game::showPlayer( Player snake)
+void Game::showPlayer()
 {
     for(int i=0;i<snake.getBody().size()-1;i++)
     {
@@ -77,4 +82,13 @@ void Game::showPlayer( Player snake)
     wrefresh(mainWindow);
     refresh();
 
+}
+void Game::showGoal()
+{
+    mvwprintw(mainWindow,goal.getRow(),goal.getColumn(),"#");
+}
+void Game::showScore() {
+    mvwprintw(stdscr,22,33,"%d",score.getScore());
+
+    wrefresh(stdscr);
 }

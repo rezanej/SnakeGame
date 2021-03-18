@@ -6,6 +6,8 @@
 #define PDCURSES_GAME_H
 #include <curses.h>
 #include "player.h"
+#include "goal.h"
+#include "score.h"
 class Game{
 public:
     Game();
@@ -17,11 +19,15 @@ private:
     int windowHeight{20},windowWidth{30},windowStartRow{0},windowStartColumn{0};
     WINDOW *mainWindow;
     Player snake;
+    Score score;
+    Goal goal;
     void cursesInitialization();
 
     void windowInitialization();
     int input();
-    void showPlayer(Player);
+    void showPlayer();
+    void showGoal();
+    void showScore();
 
 };
 #endif //PDCURSES_GAME_H

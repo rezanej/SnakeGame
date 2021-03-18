@@ -9,12 +9,20 @@ CMakeFiles/PDCURSES.dir/game.cpp.obj: ../point.h
 CMakeFiles/PDCURSES.dir/game.cpp.obj: ../direction.h
 CMakeFiles/PDCURSES.dir/game.cpp.obj: ../game.cpp
 CMakeFiles/PDCURSES.dir/game.cpp.obj: ../game.h
+CMakeFiles/PDCURSES.dir/game.cpp.obj: ../goal.h
+CMakeFiles/PDCURSES.dir/game.cpp.obj: ../score.h
+
+CMakeFiles/PDCURSES.dir/goal.cpp.obj: ../goal.cpp
+CMakeFiles/PDCURSES.dir/goal.cpp.obj: ../goal.h
+CMakeFiles/PDCURSES.dir/goal.cpp.obj: ../point.h
 
 CMakeFiles/PDCURSES.dir/main.cpp.obj: ../direction.h
 CMakeFiles/PDCURSES.dir/main.cpp.obj: ../game.h
+CMakeFiles/PDCURSES.dir/main.cpp.obj: ../goal.h
 CMakeFiles/PDCURSES.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/PDCURSES.dir/main.cpp.obj: ../player.h
 CMakeFiles/PDCURSES.dir/main.cpp.obj: ../point.h
+CMakeFiles/PDCURSES.dir/main.cpp.obj: ../score.h
 
 CMakeFiles/PDCURSES.dir/player.cpp.obj: ../direction.h
 CMakeFiles/PDCURSES.dir/player.cpp.obj: ../player.cpp
@@ -23,4 +31,11 @@ CMakeFiles/PDCURSES.dir/player.cpp.obj: ../point.h
 
 CMakeFiles/PDCURSES.dir/point.cpp.obj: ../point.cpp
 CMakeFiles/PDCURSES.dir/point.cpp.obj: ../point.h
+
+CMakeFiles/PDCURSES.dir/score.cpp.obj: ../direction.h
+CMakeFiles/PDCURSES.dir/score.cpp.obj: ../goal.h
+CMakeFiles/PDCURSES.dir/score.cpp.obj: ../player.h
+CMakeFiles/PDCURSES.dir/score.cpp.obj: ../point.h
+CMakeFiles/PDCURSES.dir/score.cpp.obj: ../score.cpp
+CMakeFiles/PDCURSES.dir/score.cpp.obj: ../score.h
 

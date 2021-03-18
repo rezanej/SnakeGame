@@ -94,6 +94,12 @@
 		<Unit filename="C:/Users/rezan/CLionProjects/PDCURSES/game.h">
 			<Option target="PDCURSES"/>
 		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/PDCURSES/goal.cpp">
+			<Option target="PDCURSES"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/PDCURSES/goal.h">
+			<Option target="PDCURSES"/>
+		</Unit>
 		<Unit filename="C:/Users/rezan/CLionProjects/PDCURSES/main.cpp">
 			<Option target="PDCURSES"/>
 		</Unit>
@@ -107,6 +113,12 @@
 			<Option target="PDCURSES"/>
 		</Unit>
 		<Unit filename="C:/Users/rezan/CLionProjects/PDCURSES/point.h">
+			<Option target="PDCURSES"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/PDCURSES/score.cpp">
+			<Option target="PDCURSES"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/PDCURSES/score.h">
 			<Option target="PDCURSES"/>
 		</Unit>
 		<Unit filename="C:/Users/rezan/CLionProjects/PDCURSES/CMakeLists.txt">

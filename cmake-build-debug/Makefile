@@ -196,6 +196,33 @@ game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/game.cpp.s
 .PHONY : game.cpp.s
 
+goal.obj: goal.cpp.obj
+
+.PHONY : goal.obj
+
+# target to build an object file
+goal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/goal.cpp.obj
+.PHONY : goal.cpp.obj
+
+goal.i: goal.cpp.i
+
+.PHONY : goal.i
+
+# target to preprocess a source file
+goal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/goal.cpp.i
+.PHONY : goal.cpp.i
+
+goal.s: goal.cpp.s
+
+.PHONY : goal.s
+
+# target to generate assembly for a file
+goal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/goal.cpp.s
+.PHONY : goal.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -277,6 +304,33 @@ point.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/point.cpp.s
 .PHONY : point.cpp.s
 
+score.obj: score.cpp.obj
+
+.PHONY : score.obj
+
+# target to build an object file
+score.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/score.cpp.obj
+.PHONY : score.cpp.obj
+
+score.i: score.cpp.i
+
+.PHONY : score.i
+
+# target to preprocess a source file
+score.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/score.cpp.i
+.PHONY : score.cpp.i
+
+score.s: score.cpp.s
+
+.PHONY : score.s
+
+# target to generate assembly for a file
+score.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/score.cpp.s
+.PHONY : score.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -292,6 +346,9 @@ help:
 	@echo ... game.obj
 	@echo ... game.i
 	@echo ... game.s
+	@echo ... goal.obj
+	@echo ... goal.i
+	@echo ... goal.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -301,6 +358,9 @@ help:
 	@echo ... point.obj
 	@echo ... point.i
 	@echo ... point.s
+	@echo ... score.obj
+	@echo ... score.i
+	@echo ... score.s
 .PHONY : help
 
 
