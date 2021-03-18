@@ -14,6 +14,8 @@ public:
     Point(int,int);
     int getRow()const;
     int getColumn()const;
+    void setColumn(int );
+    void setRow(int );
 };
 
 

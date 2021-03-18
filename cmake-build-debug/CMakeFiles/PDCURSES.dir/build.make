@@ -132,19 +132,19 @@ CMakeFiles/PDCURSES.dir/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PDCURSES.dir/player.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rezan\CLionProjects\PDCURSES\player.cpp -o CMakeFiles\PDCURSES.dir\player.cpp.s
 
-CMakeFiles/PDCURSES.dir/directions.cpp.obj: CMakeFiles/PDCURSES.dir/flags.make
-CMakeFiles/PDCURSES.dir/directions.cpp.obj: CMakeFiles/PDCURSES.dir/includes_CXX.rsp
-CMakeFiles/PDCURSES.dir/directions.cpp.obj: ../directions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rezan\CLionProjects\PDCURSES\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PDCURSES.dir/directions.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PDCURSES.dir\directions.cpp.obj -c C:\Users\rezan\CLionProjects\PDCURSES\directions.cpp
+CMakeFiles/PDCURSES.dir/direction.cpp.obj: CMakeFiles/PDCURSES.dir/flags.make
+CMakeFiles/PDCURSES.dir/direction.cpp.obj: CMakeFiles/PDCURSES.dir/includes_CXX.rsp
+CMakeFiles/PDCURSES.dir/direction.cpp.obj: ../direction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rezan\CLionProjects\PDCURSES\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PDCURSES.dir/direction.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PDCURSES.dir\direction.cpp.obj -c C:\Users\rezan\CLionProjects\PDCURSES\direction.cpp
 
-CMakeFiles/PDCURSES.dir/directions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PDCURSES.dir/directions.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rezan\CLionProjects\PDCURSES\directions.cpp > CMakeFiles\PDCURSES.dir\directions.cpp.i
+CMakeFiles/PDCURSES.dir/direction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PDCURSES.dir/direction.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rezan\CLionProjects\PDCURSES\direction.cpp > CMakeFiles\PDCURSES.dir\direction.cpp.i
 
-CMakeFiles/PDCURSES.dir/directions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PDCURSES.dir/directions.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rezan\CLionProjects\PDCURSES\directions.cpp -o CMakeFiles\PDCURSES.dir\directions.cpp.s
+CMakeFiles/PDCURSES.dir/direction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PDCURSES.dir/direction.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rezan\CLionProjects\PDCURSES\direction.cpp -o CMakeFiles\PDCURSES.dir\direction.cpp.s
 
 # Object files for target PDCURSES
 PDCURSES_OBJECTS = \
@@ -152,7 +152,7 @@ PDCURSES_OBJECTS = \
 "CMakeFiles/PDCURSES.dir/main.cpp.obj" \
 "CMakeFiles/PDCURSES.dir/point.cpp.obj" \
 "CMakeFiles/PDCURSES.dir/player.cpp.obj" \
-"CMakeFiles/PDCURSES.dir/directions.cpp.obj"
+"CMakeFiles/PDCURSES.dir/direction.cpp.obj"
 
 # External object files for target PDCURSES
 PDCURSES_EXTERNAL_OBJECTS =
@@ -161,7 +161,7 @@ PDCURSES.exe: CMakeFiles/PDCURSES.dir/game.cpp.obj
 PDCURSES.exe: CMakeFiles/PDCURSES.dir/main.cpp.obj
 PDCURSES.exe: CMakeFiles/PDCURSES.dir/point.cpp.obj
 PDCURSES.exe: CMakeFiles/PDCURSES.dir/player.cpp.obj
-PDCURSES.exe: CMakeFiles/PDCURSES.dir/directions.cpp.obj
+PDCURSES.exe: CMakeFiles/PDCURSES.dir/direction.cpp.obj
 PDCURSES.exe: CMakeFiles/PDCURSES.dir/build.make
 PDCURSES.exe: ../pdcurses.a
 PDCURSES.exe: CMakeFiles/PDCURSES.dir/linklibs.rsp

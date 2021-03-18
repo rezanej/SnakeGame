@@ -82,10 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/rezan/CLionProjects/PDCURSES/directions.cpp">
+		<Unit filename="C:/Users/rezan/CLionProjects/PDCURSES/direction.cpp">
 			<Option target="PDCURSES"/>
 		</Unit>
-		<Unit filename="C:/Users/rezan/CLionProjects/PDCURSES/directions.h">
+		<Unit filename="C:/Users/rezan/CLionProjects/PDCURSES/direction.h">
 			<Option target="PDCURSES"/>
 		</Unit>
 		<Unit filename="C:/Users/rezan/CLionProjects/PDCURSES/game.cpp">

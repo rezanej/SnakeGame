@@ -7,6 +7,18 @@ Game::Game()
     cursesInitialization();
     windowInitialization();
     showPlayer(snake);
+    while (true)
+    {
+        if (input()==0)
+            break;
+        wclear(mainWindow);
+        box(mainWindow,0,0);
+        showPlayer(snake);
+
+        wrefresh(mainWindow);
+        refresh();
+
+    }
     refresh();
     getch();
 }
@@ -29,11 +41,26 @@ void Game::windowInitialization()
     refresh();
     wrefresh(mainWindow);
 }
-void Game:: input()
+int Game:: input()
 {
-    int a=getch();
-    if (a==KEY_RIGHT)
-        snake.move(Direction(Direction::RIGHT));
+    int a=wgetch(mainWindow);
+    if (a==KEY_RIGHT) {
+        snake.move(Direction::directionE::RIGHT);
+        return 1;
+    }if (a==KEY_LEFT) {
+        snake.move(Direction::directionE::LEFT);
+        return 1;
+    }if (a==KEY_UP) {
+        snake.move(Direction::directionE::UP);
+        return 1;
+    }if (a==KEY_DOWN) {
+        snake.move(Direction::directionE::DOWN);
+        return 1;
+    }
+    else {
+
+        return 0;
+    }
 
 }
 void Game::showPlayer( Player snake)

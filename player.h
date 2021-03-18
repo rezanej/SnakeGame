@@ -13,7 +13,7 @@ class Player
 public:
 
     vector<Point> getBody()const;
-    void move(Direction);
+    void move(Direction::directionE);
 private:
     vector<Point> body{Point(5,3),Point(5,4),Point(5,5)};
 };

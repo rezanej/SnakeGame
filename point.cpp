@@ -10,3 +10,11 @@ int Point::getRow() const {
 }int Point::getColumn() const {
     return this->column;
 }
+void Point::setRow(int row)
+{
+    this->row=row;
+}
+void Point::setColumn(int column)
+{
+    this->column=column;
+}

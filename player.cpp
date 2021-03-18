@@ -8,7 +8,25 @@ using std::vector;
 vector<Point> Player::getBody() const {
     return body;
 }
-void Player::move(Direction)
+void Player::move(Direction::directionE direction)
 {
-
+    if (direction==Direction::directionE::RIGHT) {
+        body.push_back(Point(body[body.size() - 1].getRow(), body[body.size() - 1].getColumn() + 1));
+        body.erase(body.begin());
+    }
+    if (direction==Direction::directionE::UP)
+        {
+            body.push_back(Point(body[body.size()-1].getRow()-1,body[body.size()-1].getColumn()));
+            body.erase(body.begin());
+        }
+    if (direction==Direction::directionE::LEFT)
+    {
+        body.push_back(Point(body[body.size()-1].getRow(),body[body.size()-1].getColumn()-1));
+        body.erase(body.begin());
+    }
+    if (direction==Direction::directionE::DOWN)
+    {
+        body.push_back(Point(body[body.size()-1].getRow()+1,body[body.size()-1].getColumn()));
+        body.erase(body.begin());
+    }
 }

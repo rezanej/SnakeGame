@@ -20,8 +20,7 @@ private:
     void cursesInitialization();
 
     void windowInitialization();
-    void input();
-    void logic();
+    int input();
     void showPlayer(Player);
 
 };

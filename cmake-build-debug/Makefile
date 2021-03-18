@@ -142,32 +142,32 @@ PDCURSES/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/build
 .PHONY : PDCURSES/fast
 
-directions.obj: directions.cpp.obj
+direction.obj: direction.cpp.obj
 
-.PHONY : directions.obj
+.PHONY : direction.obj
 
 # target to build an object file
-directions.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/directions.cpp.obj
-.PHONY : directions.cpp.obj
+direction.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/direction.cpp.obj
+.PHONY : direction.cpp.obj
 
-directions.i: directions.cpp.i
+direction.i: direction.cpp.i
 
-.PHONY : directions.i
+.PHONY : direction.i
 
 # target to preprocess a source file
-directions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/directions.cpp.i
-.PHONY : directions.cpp.i
+direction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/direction.cpp.i
+.PHONY : direction.cpp.i
 
-directions.s: directions.cpp.s
+direction.s: direction.cpp.s
 
-.PHONY : directions.s
+.PHONY : direction.s
 
 # target to generate assembly for a file
-directions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/directions.cpp.s
-.PHONY : directions.cpp.s
+direction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/direction.cpp.s
+.PHONY : direction.cpp.s
 
 game.obj: game.cpp.obj
 
@@ -286,9 +286,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... PDCURSES
-	@echo ... directions.obj
-	@echo ... directions.i
-	@echo ... directions.s
+	@echo ... direction.obj
+	@echo ... direction.i
+	@echo ... direction.s
 	@echo ... game.obj
 	@echo ... game.i
 	@echo ... game.s
