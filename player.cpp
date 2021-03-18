@@ -30,3 +30,12 @@ void Player::move(Direction::directionE direction)
         body.erase(body.begin());
     }
 }
+void Player::autoMove()
+{
+    Sleep(500);
+    move(this->direction);
+}
+void Player::changeDirection(Direction::directionE direction)
+{
+    this->direction=direction;
+}

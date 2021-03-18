@@ -7,6 +7,7 @@
 #include <vector>
 #include "point.h"
 #include "direction.h"
+#include <windows.h>
 using std::vector;
 class Player
 {
@@ -14,8 +15,13 @@ public:
 
     vector<Point> getBody()const;
     void move(Direction::directionE);
+    void autoMove();
+    void changeDirection(Direction::directionE direction);
+
 private:
     vector<Point> body{Point(5,3),Point(5,4),Point(5,5)};
+    Direction::directionE direction=Direction::directionE::RIGHT;
+
 };
 
 

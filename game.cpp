@@ -1,5 +1,6 @@
 #include "game.h"
 #include <player.h>
+#include <windows.h>
 #include "direction.h"
 Game::Game()
 {
@@ -13,11 +14,11 @@ Game::Game()
             break;
         wclear(mainWindow);
         box(mainWindow,0,0);
+        snake.autoMove();
         showPlayer(snake);
 
         wrefresh(mainWindow);
         refresh();
-
     }
     refresh();
     getch();
@@ -30,7 +31,6 @@ void Game::cursesInitialization()
 {
     initscr();
     noecho();
-    cbreak();
     curs_set(0);
 }
 void Game::windowInitialization()
@@ -40,27 +40,30 @@ void Game::windowInitialization()
     box(mainWindow,0,0);
     refresh();
     wrefresh(mainWindow);
+    nodelay(mainWindow,true);
 }
 int Game:: input()
 {
+
     int a=wgetch(mainWindow);
     if (a==KEY_RIGHT) {
-        snake.move(Direction::directionE::RIGHT);
+        snake.changeDirection(Direction::directionE::RIGHT);
         return 1;
-    }if (a==KEY_LEFT) {
-        snake.move(Direction::directionE::LEFT);
+    }else if (a==KEY_LEFT) {
+        snake.changeDirection(Direction::directionE::LEFT);
         return 1;
-    }if (a==KEY_UP) {
-        snake.move(Direction::directionE::UP);
+    }else if (a==KEY_UP) {
+        snake.changeDirection(Direction::directionE::UP);
         return 1;
-    }if (a==KEY_DOWN) {
-        snake.move(Direction::directionE::DOWN);
+    }else if (a==KEY_DOWN) {
+        snake.changeDirection(Direction::directionE::DOWN);
         return 1;
     }
-    else {
+    else if(a=='q') {
 
         return 0;
     }
+    else return 5;
 
 }
 void Game::showPlayer( Player snake)

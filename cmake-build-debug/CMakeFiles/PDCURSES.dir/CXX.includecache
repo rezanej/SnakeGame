@@ -13,6 +13,8 @@ point.h
 ../point.h
 direction.h
 ../direction.h
+windows.h
+-
 
 ../point.h
 
@@ -22,6 +24,8 @@ C:/Users/rezan/CLionProjects/PDCURSES/game.cpp
 game.h
 C:/Users/rezan/CLionProjects/PDCURSES/game.h
 player.h
+-
+windows.h
 -
 direction.h
 C:/Users/rezan/CLionProjects/PDCURSES/direction.h
@@ -36,6 +40,10 @@ C:/Users/rezan/CLionProjects/PDCURSES/main.cpp
 game.h
 C:/Users/rezan/CLionProjects/PDCURSES/game.h
 
+C:/Users/rezan/CLionProjects/PDCURSES/player.cpp
+player.h
+C:/Users/rezan/CLionProjects/PDCURSES/player.h
+
 C:/Users/rezan/CLionProjects/PDCURSES/player.h
 vector
 -
@@ -43,6 +51,8 @@ point.h
 C:/Users/rezan/CLionProjects/PDCURSES/point.h
 direction.h
 C:/Users/rezan/CLionProjects/PDCURSES/direction.h
+windows.h
+-
 
 C:/Users/rezan/CLionProjects/PDCURSES/point.h
 
