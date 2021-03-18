@@ -1,8 +1,9 @@
 #include "game.h"
 #include <player.h>
+#include "direction.h"
 Game::Game()
 {
-    Player snake;
+
     cursesInitialization();
     windowInitialization();
     showPlayer(snake);
@@ -17,6 +18,7 @@ void Game::cursesInitialization()
 {
     initscr();
     noecho();
+    cbreak();
     curs_set(0);
 }
 void Game::windowInitialization()
@@ -29,6 +31,10 @@ void Game::windowInitialization()
 }
 void Game:: input()
 {
+    int a=getch();
+    if (a==KEY_RIGHT)
+        snake.move(Direction(Direction::RIGHT));
+
 }
 void Game::showPlayer( Player snake)
 {

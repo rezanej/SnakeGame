@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/rezan/CLionProjects/PDCURSES/directions.cpp" "C:/Users/rezan/CLionProjects/PDCURSES/cmake-build-debug/CMakeFiles/PDCURSES.dir/directions.cpp.obj"
   "C:/Users/rezan/CLionProjects/PDCURSES/game.cpp" "C:/Users/rezan/CLionProjects/PDCURSES/cmake-build-debug/CMakeFiles/PDCURSES.dir/game.cpp.obj"
   "C:/Users/rezan/CLionProjects/PDCURSES/main.cpp" "C:/Users/rezan/CLionProjects/PDCURSES/cmake-build-debug/CMakeFiles/PDCURSES.dir/main.cpp.obj"
   "C:/Users/rezan/CLionProjects/PDCURSES/player.cpp" "C:/Users/rezan/CLionProjects/PDCURSES/cmake-build-debug/CMakeFiles/PDCURSES.dir/player.cpp.obj"

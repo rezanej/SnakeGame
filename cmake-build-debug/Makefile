@@ -142,6 +142,33 @@ PDCURSES/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/build
 .PHONY : PDCURSES/fast
 
+directions.obj: directions.cpp.obj
+
+.PHONY : directions.obj
+
+# target to build an object file
+directions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/directions.cpp.obj
+.PHONY : directions.cpp.obj
+
+directions.i: directions.cpp.i
+
+.PHONY : directions.i
+
+# target to preprocess a source file
+directions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/directions.cpp.i
+.PHONY : directions.cpp.i
+
+directions.s: directions.cpp.s
+
+.PHONY : directions.s
+
+# target to generate assembly for a file
+directions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/directions.cpp.s
+.PHONY : directions.cpp.s
+
 game.obj: game.cpp.obj
 
 .PHONY : game.obj
@@ -259,6 +286,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... PDCURSES
+	@echo ... directions.obj
+	@echo ... directions.i
+	@echo ... directions.s
 	@echo ... game.obj
 	@echo ... game.i
 	@echo ... game.s

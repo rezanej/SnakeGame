@@ -3,7 +3,12 @@
 //
 
 #include "player.h"
+
 using std::vector;
 vector<Point> Player::getBody() const {
     return body;
+}
+void Player::move(Direction)
+{
+
 }

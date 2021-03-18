@@ -6,23 +6,9 @@
 
 #IncludeRegexTransform: 
 
-../player.h
-vector
--
-point.h
-../point.h
+C:/Users/rezan/CLionProjects/PDCURSES/directions.cpp
+directions.h
+C:/Users/rezan/CLionProjects/PDCURSES/directions.h
 
-../point.h
-
-C:/Users/rezan/CLionProjects/PDCURSES/game.cpp
-game.h
-C:/Users/rezan/CLionProjects/PDCURSES/game.h
-player.h
--
-
-C:/Users/rezan/CLionProjects/PDCURSES/game.h
-curses.h
--
-player.h
-C:/Users/rezan/CLionProjects/PDCURSES/player.h
+C:/Users/rezan/CLionProjects/PDCURSES/directions.h
 

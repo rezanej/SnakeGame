@@ -13,5 +13,7 @@ add_executable(PDCURSES
         point.h
         player.cpp
         player.h
+        direction.h
+        direction.cpp
        )
 target_link_libraries( PDCURSES ${PROJECT_SOURCE_DIR}/pdcurses.a)

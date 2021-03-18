@@ -13,8 +13,10 @@ public:
     ~Game();
     //
 private:
+
     int windowHeight{20},windowWidth{30},windowStartRow{0},windowStartColumn{0};
     WINDOW *mainWindow;
+    Player snake;
     void cursesInitialization();
 
     void windowInitialization();
