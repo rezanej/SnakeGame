@@ -5,13 +5,20 @@ CMakeFiles/PDCURSES.dir/direction.cpp.obj
  C:/Users/rezan/CLionProjects/PDCURSES/direction.cpp
  C:/Users/rezan/CLionProjects/PDCURSES/direction.h
 CMakeFiles/PDCURSES.dir/game.cpp.obj
- ../player.h
- ../point.h
  C:/Users/rezan/CLionProjects/PDCURSES/direction.h
  C:/Users/rezan/CLionProjects/PDCURSES/game.cpp
  C:/Users/rezan/CLionProjects/PDCURSES/game.h
+ C:/Users/rezan/CLionProjects/PDCURSES/gameover.h
  C:/Users/rezan/CLionProjects/PDCURSES/goal.h
+ C:/Users/rezan/CLionProjects/PDCURSES/player.h
+ C:/Users/rezan/CLionProjects/PDCURSES/point.h
  C:/Users/rezan/CLionProjects/PDCURSES/score.h
+CMakeFiles/PDCURSES.dir/gameover.cpp.obj
+ ../direction.h
+ ../player.h
+ ../point.h
+ C:/Users/rezan/CLionProjects/PDCURSES/gameover.cpp
+ C:/Users/rezan/CLionProjects/PDCURSES/gameover.h
 CMakeFiles/PDCURSES.dir/goal.cpp.obj
  C:/Users/rezan/CLionProjects/PDCURSES/goal.cpp
  C:/Users/rezan/CLionProjects/PDCURSES/goal.h
@@ -19,6 +26,7 @@ CMakeFiles/PDCURSES.dir/goal.cpp.obj
 CMakeFiles/PDCURSES.dir/main.cpp.obj
  C:/Users/rezan/CLionProjects/PDCURSES/direction.h
  C:/Users/rezan/CLionProjects/PDCURSES/game.h
+ C:/Users/rezan/CLionProjects/PDCURSES/gameover.h
  C:/Users/rezan/CLionProjects/PDCURSES/goal.h
  C:/Users/rezan/CLionProjects/PDCURSES/main.cpp
  C:/Users/rezan/CLionProjects/PDCURSES/player.h

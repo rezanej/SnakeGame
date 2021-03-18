@@ -196,6 +196,33 @@ game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/game.cpp.s
 .PHONY : game.cpp.s
 
+gameover.obj: gameover.cpp.obj
+
+.PHONY : gameover.obj
+
+# target to build an object file
+gameover.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/gameover.cpp.obj
+.PHONY : gameover.cpp.obj
+
+gameover.i: gameover.cpp.i
+
+.PHONY : gameover.i
+
+# target to preprocess a source file
+gameover.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/gameover.cpp.i
+.PHONY : gameover.cpp.i
+
+gameover.s: gameover.cpp.s
+
+.PHONY : gameover.s
+
+# target to generate assembly for a file
+gameover.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PDCURSES.dir\build.make CMakeFiles/PDCURSES.dir/gameover.cpp.s
+.PHONY : gameover.cpp.s
+
 goal.obj: goal.cpp.obj
 
 .PHONY : goal.obj
@@ -346,6 +373,9 @@ help:
 	@echo ... game.obj
 	@echo ... game.i
 	@echo ... game.s
+	@echo ... gameover.obj
+	@echo ... gameover.i
+	@echo ... gameover.s
 	@echo ... goal.obj
 	@echo ... goal.i
 	@echo ... goal.s

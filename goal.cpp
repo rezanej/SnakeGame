@@ -10,8 +10,10 @@ void Goal::setPoint()
 
     srand(time(0));
     int row,column;
-    row=1+rand()%19;
-    column=1+rand()%29;
+    row=2+rand()%18;
+    column=2+rand()%28;
+    if (column%2!=1)
+        column--;
     point.setRow(row);
     point.setColumn(column);
 }

@@ -19,5 +19,7 @@ add_executable(PDCURSES
         goal.h
         score.cpp
         score.h
+        gameover.cpp
+        gameover.h
        )
 target_link_libraries( PDCURSES ${PROJECT_SOURCE_DIR}/pdcurses.a)

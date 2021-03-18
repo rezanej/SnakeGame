@@ -8,6 +8,7 @@
 #include "player.h"
 #include "goal.h"
 #include "score.h"
+#include "gameover.h"
 class Game{
 public:
     Game();

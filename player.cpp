@@ -11,7 +11,7 @@ vector<Point> Player::getBody() const {
 void Player::move(Direction::directionE direction)
 {
     if (direction==Direction::directionE::RIGHT) {
-        body.push_back(Point(body[body.size() - 1].getRow(), body[body.size() - 1].getColumn() + 1));
+        body.push_back(Point(body[body.size() - 1].getRow(), body[body.size() - 1].getColumn() + 2));
         body.erase(body.begin());
     }
     if (direction==Direction::directionE::UP)
@@ -21,7 +21,7 @@ void Player::move(Direction::directionE direction)
         }
     if (direction==Direction::directionE::LEFT)
     {
-        body.push_back(Point(body[body.size()-1].getRow(),body[body.size()-1].getColumn()-1));
+        body.push_back(Point(body[body.size()-1].getRow(),body[body.size()-1].getColumn()-2));
         body.erase(body.begin());
     }
     if (direction==Direction::directionE::DOWN)
@@ -32,9 +32,6 @@ void Player::move(Direction::directionE direction)
 }
 void Player::autoMove()
 {
-    if (direction==Direction::directionE::RIGHT ||direction==Direction::directionE::LEFT)
-        Sleep(100);
-    else
         Sleep(200);
     move(this->direction);
 }
@@ -48,7 +45,7 @@ void Player::addBody() {
     if (direction==Direction::directionE::UP)
     body.push_back(Point(body[body.size()-1].getRow()-1,body[body.size()-1].getColumn()));
     if (direction==Direction::directionE::RIGHT)
-    body.push_back(Point(body[body.size()-1].getRow(),body[body.size()-1].getColumn()+1));
+    body.push_back(Point(body[body.size()-1].getRow(),body[body.size()-1].getColumn()+2));
     if (direction==Direction::directionE::LEFT)
-    body.push_back(Point(body[body.size()-1].getRow(),body[body.size()-1].getColumn()-1));
+    body.push_back(Point(body[body.size()-1].getRow(),body[body.size()-1].getColumn()-2));
 }

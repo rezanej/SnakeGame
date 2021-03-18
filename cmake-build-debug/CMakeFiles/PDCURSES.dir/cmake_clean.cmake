@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PDCURSES.dir/direction.cpp.obj"
   "CMakeFiles/PDCURSES.dir/game.cpp.obj"
+  "CMakeFiles/PDCURSES.dir/gameover.cpp.obj"
   "CMakeFiles/PDCURSES.dir/goal.cpp.obj"
   "CMakeFiles/PDCURSES.dir/main.cpp.obj"
   "CMakeFiles/PDCURSES.dir/player.cpp.obj"

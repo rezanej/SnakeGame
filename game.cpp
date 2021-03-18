@@ -1,9 +1,4 @@
 #include "game.h"
-#include <player.h>
-#include <windows.h>
-#include "direction.h"
-#include "goal.h"
-#include "score.h"
 Game::Game()
 {
     cursesInitialization();
@@ -12,7 +7,7 @@ Game::Game()
 
     while (true)
     {
-        if (input()==0)
+        if (input()==0 ||GameOver::checkGameover(snake,windowHeight,windowWidth))
             break;
         wclear(mainWindow);
         box(mainWindow,0,0);

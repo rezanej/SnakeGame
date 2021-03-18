@@ -94,6 +94,12 @@
 		<Unit filename="C:/Users/rezan/CLionProjects/PDCURSES/game.h">
 			<Option target="PDCURSES"/>
 		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/PDCURSES/gameover.cpp">
+			<Option target="PDCURSES"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/PDCURSES/gameover.h">
+			<Option target="PDCURSES"/>
+		</Unit>
 		<Unit filename="C:/Users/rezan/CLionProjects/PDCURSES/goal.cpp">
 			<Option target="PDCURSES"/>
 		</Unit>

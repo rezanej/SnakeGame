@@ -19,7 +19,7 @@ public:
     void changeDirection(Direction::directionE direction);
     void addBody();
 private:
-    vector<Point> body{Point(5,3),Point(5,4),Point(5,5)};
+    vector<Point> body{Point(5,3),Point(5,5),Point(5,7)};
     Direction::directionE direction=Direction::directionE::RIGHT;
 
 };

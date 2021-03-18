@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/rezan/CLionProjects/PDCURSES/direction.cpp" "C:/Users/rezan/CLionProjects/PDCURSES/cmake-build-debug/CMakeFiles/PDCURSES.dir/direction.cpp.obj"
   "C:/Users/rezan/CLionProjects/PDCURSES/game.cpp" "C:/Users/rezan/CLionProjects/PDCURSES/cmake-build-debug/CMakeFiles/PDCURSES.dir/game.cpp.obj"
+  "C:/Users/rezan/CLionProjects/PDCURSES/gameover.cpp" "C:/Users/rezan/CLionProjects/PDCURSES/cmake-build-debug/CMakeFiles/PDCURSES.dir/gameover.cpp.obj"
   "C:/Users/rezan/CLionProjects/PDCURSES/goal.cpp" "C:/Users/rezan/CLionProjects/PDCURSES/cmake-build-debug/CMakeFiles/PDCURSES.dir/goal.cpp.obj"
   "C:/Users/rezan/CLionProjects/PDCURSES/main.cpp" "C:/Users/rezan/CLionProjects/PDCURSES/cmake-build-debug/CMakeFiles/PDCURSES.dir/main.cpp.obj"
   "C:/Users/rezan/CLionProjects/PDCURSES/player.cpp" "C:/Users/rezan/CLionProjects/PDCURSES/cmake-build-debug/CMakeFiles/PDCURSES.dir/player.cpp.obj"
