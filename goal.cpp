@@ -11,7 +11,7 @@ void Goal::setPoint()
     srand(time(0));
     int row,column;
     row=2+rand()%18;
-    column=2+rand()%28;
+    column=2+rand()%27;
     if (column%2!=1)
         column--;
     point.setRow(row);

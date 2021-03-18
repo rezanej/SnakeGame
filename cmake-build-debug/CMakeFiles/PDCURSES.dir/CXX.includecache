@@ -6,20 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../direction.h
-
-../player.h
-vector
--
-point.h
-../point.h
-direction.h
-../direction.h
-windows.h
--
-
-../point.h
-
 C:/Users/rezan/CLionProjects/PDCURSES/direction.h
 
 C:/Users/rezan/CLionProjects/PDCURSES/game.cpp
@@ -38,33 +24,13 @@ C:/Users/rezan/CLionProjects/PDCURSES/score.h
 gameover.h
 C:/Users/rezan/CLionProjects/PDCURSES/gameover.h
 
-C:/Users/rezan/CLionProjects/PDCURSES/gameover.cpp
-gameover.h
-C:/Users/rezan/CLionProjects/PDCURSES/gameover.h
-
 C:/Users/rezan/CLionProjects/PDCURSES/gameover.h
 player.h
--
-
-C:/Users/rezan/CLionProjects/PDCURSES/goal.cpp
-goal.h
-C:/Users/rezan/CLionProjects/PDCURSES/goal.h
-random
--
-ctime
 -
 
 C:/Users/rezan/CLionProjects/PDCURSES/goal.h
 point.h
 C:/Users/rezan/CLionProjects/PDCURSES/point.h
-
-C:/Users/rezan/CLionProjects/PDCURSES/main.cpp
-game.h
-C:/Users/rezan/CLionProjects/PDCURSES/game.h
-
-C:/Users/rezan/CLionProjects/PDCURSES/player.cpp
-player.h
-C:/Users/rezan/CLionProjects/PDCURSES/player.h
 
 C:/Users/rezan/CLionProjects/PDCURSES/player.h
 vector
@@ -77,10 +43,6 @@ windows.h
 -
 
 C:/Users/rezan/CLionProjects/PDCURSES/point.h
-
-C:/Users/rezan/CLionProjects/PDCURSES/score.cpp
-score.h
-C:/Users/rezan/CLionProjects/PDCURSES/score.h
 
 C:/Users/rezan/CLionProjects/PDCURSES/score.h
 goal.h

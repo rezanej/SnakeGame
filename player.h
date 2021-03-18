@@ -18,8 +18,11 @@ public:
     void autoMove();
     void changeDirection(Direction::directionE direction);
     void addBody();
+    Direction::directionE getDirection();
+    void setPosition();
 private:
-    vector<Point> body{Point(5,3),Point(5,5),Point(5,7)};
+    vector<Point> body;
+//    vector<Point> body{Point(5,3),Point(5,5),Point(5,7)};
     Direction::directionE direction=Direction::directionE::RIGHT;
 
 };

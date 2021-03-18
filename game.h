@@ -13,11 +13,10 @@ class Game{
 public:
     Game();
 
-    ~Game();
     //
 private:
 
-    int windowHeight{20},windowWidth{30},windowStartRow{0},windowStartColumn{0};
+    int windowHeight{21},windowWidth{31},windowStartRow{0},windowStartColumn{1};
     WINDOW *mainWindow;
     Player snake;
     Score score;
