@@ -27,8 +27,6 @@ Game::Game()
                     if (a == int('q'))
                         exit(0);
 
-
-
                 }
             }
         }

@@ -1,3 +1,0 @@
-C:/Users/rezan/CLionProjects/PDCURSES/cmake-build-debug/CMakeFiles/PDCURSES.dir
-C:/Users/rezan/CLionProjects/PDCURSES/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/rezan/CLionProjects/PDCURSES/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -33,7 +33,7 @@ void Player::move(Direction::directionE direction)
 }
 void Player::autoMove()
 {
-        Sleep(200);
+        Sleep(150);
     move(this->direction);
 }
 void Player::changeDirection(Direction::directionE direction)

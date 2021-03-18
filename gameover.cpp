@@ -14,7 +14,8 @@ bool GameOver::checkGameover(Player snake, int height, int width)
             && snake.getBody()[i].getColumn()==snake.getBody()[j].getColumn())
             || snake.getBody()[j].getRow()<1 ||snake.getBody()[j].getRow()>height-1
                || snake.getBody()[j].getColumn()>width-2
-               ||snake.getBody()[j].getColumn()<0)
+               ||snake.getBody()[j].getColumn()<0
+               )
                 return true;
     }
     }

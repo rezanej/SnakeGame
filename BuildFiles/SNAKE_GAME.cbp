@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SNAKE_GAME"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SNAKE_GAME">
+				<Option output="C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/SNAKE_GAME.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/rezan/CLionProjects/SNAKE_GAME/."/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 SNAKE_GAME"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SNAKE_GAME/fast">
+				<Option output="C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/SNAKE_GAME.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/rezan/CLionProjects/SNAKE_GAME/."/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 SNAKE_GAME/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/rezan/CLionProjects/SNAKE_GAME/BuildFiles/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/rezan/CLionProjects/SNAKE_GAME/direction.cpp">
+			<Option target="SNAKE_GAME"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/SNAKE_GAME/direction.h">
+			<Option target="SNAKE_GAME"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/SNAKE_GAME/game.cpp">
+			<Option target="SNAKE_GAME"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/SNAKE_GAME/game.h">
+			<Option target="SNAKE_GAME"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/SNAKE_GAME/gameover.cpp">
+			<Option target="SNAKE_GAME"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/SNAKE_GAME/gameover.h">
+			<Option target="SNAKE_GAME"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/SNAKE_GAME/goal.cpp">
+			<Option target="SNAKE_GAME"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/SNAKE_GAME/goal.h">
+			<Option target="SNAKE_GAME"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/SNAKE_GAME/main.cpp">
+			<Option target="SNAKE_GAME"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/SNAKE_GAME/player.cpp">
+			<Option target="SNAKE_GAME"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/SNAKE_GAME/player.h">
+			<Option target="SNAKE_GAME"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/SNAKE_GAME/point.cpp">
+			<Option target="SNAKE_GAME"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/SNAKE_GAME/point.h">
+			<Option target="SNAKE_GAME"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/SNAKE_GAME/score.cpp">
+			<Option target="SNAKE_GAME"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/SNAKE_GAME/score.h">
+			<Option target="SNAKE_GAME"/>
+		</Unit>
+		<Unit filename="C:/Users/rezan/CLionProjects/SNAKE_GAME/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

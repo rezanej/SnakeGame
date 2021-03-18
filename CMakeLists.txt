@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.17)
-project(PDCURSES)
+project(SNAKE_GAME)
 
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(PDCURSES
+add_executable(SNAKE_GAME
         game.cpp
         game.h
         main.cpp
@@ -22,4 +22,4 @@ add_executable(PDCURSES
         gameover.cpp
         gameover.h
        )
-target_link_libraries( PDCURSES ${PROJECT_SOURCE_DIR}/pdcurses.a)
+target_link_libraries( SNAKE_GAME ${PROJECT_SOURCE_DIR}/pdcurses.a)
