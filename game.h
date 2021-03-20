@@ -17,10 +17,14 @@ public:
 private:
 
     int windowHeight{21},windowWidth{31},windowStartRow{0},windowStartColumn{1};
+    int level{1};
+    int levelupRate{5};
+    bool canLevelUp= true;
     WINDOW *mainWindow;
     Player snake;
     Score score;
-    Goal goal;
+    Goal goal=Goal(snake);
+
     void cursesInitialization();
 
     void windowInitialization();
@@ -28,6 +32,7 @@ private:
     void showPlayer();
     void showGoal();
     void showScore();
-
+    void levelUp();
+    void initColors();
 };
 #endif //PDCURSES_GAME_H

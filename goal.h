@@ -5,16 +5,17 @@
 #ifndef PDCURSES_GOAL_H
 #define PDCURSES_GOAL_H
 #include "point.h"
-
+#include "player.h"
 class Goal
 {
 public:
-    Goal();
+    Goal(Player&);
     int getRow();
     int getColumn();
     void setPoint();
 private:
     Point point=Point(0,0);
+    void checkOk(Player &);
 
 };
 

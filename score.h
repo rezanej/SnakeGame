@@ -14,7 +14,7 @@ private:
 
 public:
     int getScore()const;
-    void checkAddScore(Goal&,Player&);
+    void checkAddScore(Goal&,Player&,bool&);
 };
 
 

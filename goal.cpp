@@ -25,6 +25,25 @@ int Goal::getColumn()
 {
     return this->point.getColumn();
 }
-Goal::Goal() {
-    setPoint();
+Goal::Goal(Player &snake) {
+   setPoint();
+   checkOk(snake);
+
+}
+void Goal::checkOk(Player &snake) {
+    bool isOk= true;
+    for (int i = 0; i < snake.getBody().size(); ++i) {
+        if (snake.getBody()[i].getColumn() == this->getColumn()
+            && snake.getBody()[i].getRow() == this->getRow()) {
+            isOk = false;
+            setPoint();
+
+        }
+    }
+    if (!isOk)
+    {
+        setPoint();
+        checkOk(snake);
+    }
+
 }

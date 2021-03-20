@@ -6,24 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../direction.h
-
-../player.h
-vector
--
-point.h
-../point.h
-direction.h
-../direction.h
-windows.h
--
-
-../point.h
-
-C:/Users/rezan/CLionProjects/SNAKE_GAME/direction.cpp
-direction.h
-C:/Users/rezan/CLionProjects/SNAKE_GAME/direction.h
-
 C:/Users/rezan/CLionProjects/SNAKE_GAME/direction.h
 
 C:/Users/rezan/CLionProjects/SNAKE_GAME/game.cpp
@@ -42,37 +24,19 @@ C:/Users/rezan/CLionProjects/SNAKE_GAME/score.h
 gameover.h
 C:/Users/rezan/CLionProjects/SNAKE_GAME/gameover.h
 
-C:/Users/rezan/CLionProjects/SNAKE_GAME/gameover.cpp
-gameover.h
-C:/Users/rezan/CLionProjects/SNAKE_GAME/gameover.h
-
 C:/Users/rezan/CLionProjects/SNAKE_GAME/gameover.h
 player.h
--
-
-C:/Users/rezan/CLionProjects/SNAKE_GAME/goal.cpp
-goal.h
-C:/Users/rezan/CLionProjects/SNAKE_GAME/goal.h
-random
--
-ctime
 -
 
 C:/Users/rezan/CLionProjects/SNAKE_GAME/goal.h
 point.h
 C:/Users/rezan/CLionProjects/SNAKE_GAME/point.h
+player.h
+C:/Users/rezan/CLionProjects/SNAKE_GAME/player.h
 
 C:/Users/rezan/CLionProjects/SNAKE_GAME/main.cpp
 game.h
 C:/Users/rezan/CLionProjects/SNAKE_GAME/game.h
-
-C:/Users/rezan/CLionProjects/SNAKE_GAME/player.cpp
-player.h
-C:/Users/rezan/CLionProjects/SNAKE_GAME/player.h
-random
--
-ctime
--
 
 C:/Users/rezan/CLionProjects/SNAKE_GAME/player.h
 vector
@@ -84,15 +48,7 @@ C:/Users/rezan/CLionProjects/SNAKE_GAME/direction.h
 windows.h
 -
 
-C:/Users/rezan/CLionProjects/SNAKE_GAME/point.cpp
-point.h
 C:/Users/rezan/CLionProjects/SNAKE_GAME/point.h
-
-C:/Users/rezan/CLionProjects/SNAKE_GAME/point.h
-
-C:/Users/rezan/CLionProjects/SNAKE_GAME/score.cpp
-score.h
-C:/Users/rezan/CLionProjects/SNAKE_GAME/score.h
 
 C:/Users/rezan/CLionProjects/SNAKE_GAME/score.h
 goal.h
