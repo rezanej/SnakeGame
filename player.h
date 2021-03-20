@@ -20,10 +20,13 @@ public:
     void addBody();
     Direction::directionE getDirection();
     void setPosition();
+    void levelUp();
 private:
     vector<Point> body;
-//    vector<Point> body{Point(5,3),Point(5,5),Point(5,7)};
     Direction::directionE direction=Direction::directionE::RIGHT;
+    int sleepTime{250};
+    int levelUpRate{15};
+
 
 };
 

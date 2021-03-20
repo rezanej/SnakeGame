@@ -3,6 +3,7 @@ Game::Game()
 {
     cursesInitialization();
     windowInitialization();
+    initColors();
     snake.setPosition();
     while (true)
     {
@@ -14,7 +15,7 @@ Game::Game()
                     nodelay(mainWindow, false);
                     mvwprintw(mainWindow, 5, 4, "PAUSE");
                     mvwprintw(mainWindow, 6, 4, "PRESS P  FOR RESUME");
-                    mvwprintw(mainWindow, 7, 4, "PRESS Q  FOR RESUME");
+                    mvwprintw(mainWindow, 7, 4, "PRESS Q  FOR QUIT");
                     mvwprintw(mainWindow, 8, 4, "PRESS R  FOR RESTART");
                     wrefresh(mainWindow);
                     refresh();
@@ -38,9 +39,10 @@ Game::Game()
         snake.autoMove();
         showPlayer();
         showGoal();
-        score.checkAddScore(goal,snake);
+        score.checkAddScore(goal,snake,canLevelUp);
 
         showScore();
+        levelUp();
         wrefresh(mainWindow);
         refresh();
     }
@@ -48,11 +50,13 @@ Game::Game()
     mvwprintw(mainWindow, 6, 4, "PRESS R FOR RESTART");
     mvwprintw(mainWindow, 7, 4, "PRESS Q FOR QUIT");
     wrefresh(mainWindow);
-    int a=getch();
-    if (a==int('r'))
-        Game();
-    else if(a==int('q'))
-        exit(0);
+    while (true) {
+        int a = getch();
+        if (a == int('r'))
+            Game();
+        else if (a == int('q'))
+            exit(0);
+    }
     endwin();
 }
 
@@ -61,6 +65,8 @@ void Game::cursesInitialization()
     initscr();
     noecho();
     curs_set(0);
+    clear();
+
 }
 void Game::windowInitialization()
 {
@@ -98,24 +104,47 @@ int Game:: input()
 }
 void Game::showPlayer()
 {
+
     for(int i=0;i<snake.getBody().size()-1;i++)
     {
+        wattron(mainWindow,COLOR_PAIR(1));
         mvwprintw(mainWindow, snake.getBody()[i].getRow(), snake.getBody()[i].getColumn(), "O");
+        wattroff(mainWindow,COLOR_PAIR(1));
     }
-        mvwprintw(mainWindow, snake.getBody()[snake.getBody().size()-1].getRow(), snake.getBody()[snake.getBody().size()-1].getColumn(), "Q");
-
+    wattron(mainWindow,COLOR_PAIR(2));
+    mvwprintw(mainWindow, snake.getBody()[snake.getBody().size()-1].getRow(), snake.getBody()[snake.getBody().size()-1].getColumn(), "Q");
+    wattroff(mainWindow,COLOR_PAIR(2));
     wrefresh(mainWindow);
     refresh();
 
 }
 void Game::showGoal()
 {
+    wattron(mainWindow,COLOR_PAIR(3));
+
     mvwprintw(mainWindow,goal.getRow(),goal.getColumn(),"#");
+
+    wattroff(mainWindow,COLOR_PAIR(3));
 }
 void Game::showScore() {
-    mvwprintw(stdscr,1,33,"SCORE: %d",score.getScore());
-    mvwprintw(stdscr,2,33,"PRESS Q FOR QUIT");
-    mvwprintw(stdscr,3,33,"PRESS P FOR PAUSE");
-    mvwprintw(stdscr,3,33,"PRESS R FOR RESTART");
+    mvwprintw(stdscr,1,33,"LEVEL : %d",level);
+    mvwprintw(stdscr,2,33,"SCORE: %d",score.getScore());
+    mvwprintw(stdscr,3,33,"PRESS Q FOR QUIT");
+    mvwprintw(stdscr,4,33,"PRESS P FOR PAUSE");
+    mvwprintw(stdscr,5,33,"PRESS R FOR RESTART");
+
     wrefresh(stdscr);
+}
+void Game::levelUp() {
+    if (score.getScore()%levelupRate==0 &&score.getScore()!=0 &&canLevelUp) {
+        snake.levelUp();
+        level++;
+        canLevelUp= false;
+    }
+}
+void Game::initColors() {
+    start_color();
+    init_pair(1,COLOR_YELLOW,COLOR_BLACK);
+    init_pair(2,COLOR_RED,COLOR_BLACK);
+    init_pair(3,COLOR_GREEN,COLOR_BLACK);
 }

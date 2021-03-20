@@ -33,7 +33,7 @@ void Player::move(Direction::directionE direction)
 }
 void Player::autoMove()
 {
-        Sleep(150);
+        Sleep(sleepTime);
     move(this->direction);
 }
 void Player::changeDirection(Direction::directionE direction)
@@ -64,4 +64,7 @@ void Player::setPosition() {
     for (int i = 0; i <7 ; i+=2) {
         body.push_back(Point(row,column+i));
     }
+}
+void Player::levelUp() {
+    sleepTime-=levelUpRate;
 }

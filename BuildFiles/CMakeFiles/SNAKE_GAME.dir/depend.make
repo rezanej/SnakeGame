@@ -19,8 +19,10 @@ CMakeFiles/SNAKE_GAME.dir/gameover.cpp.obj: ../point.h
 CMakeFiles/SNAKE_GAME.dir/gameover.cpp.obj: ../gameover.cpp
 CMakeFiles/SNAKE_GAME.dir/gameover.cpp.obj: ../gameover.h
 
+CMakeFiles/SNAKE_GAME.dir/goal.cpp.obj: ../direction.h
 CMakeFiles/SNAKE_GAME.dir/goal.cpp.obj: ../goal.cpp
 CMakeFiles/SNAKE_GAME.dir/goal.cpp.obj: ../goal.h
+CMakeFiles/SNAKE_GAME.dir/goal.cpp.obj: ../player.h
 CMakeFiles/SNAKE_GAME.dir/goal.cpp.obj: ../point.h
 
 CMakeFiles/SNAKE_GAME.dir/main.cpp.obj: ../direction.h
