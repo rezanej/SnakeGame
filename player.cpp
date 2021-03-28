@@ -66,5 +66,6 @@ void Player::setPosition() {
     }
 }
 void Player::levelUp() {
-    sleepTime-=levelUpRate;
+    if (sleepTime>150)
+        sleepTime-=levelUpRate;
 }

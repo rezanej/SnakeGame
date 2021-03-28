@@ -5,6 +5,7 @@ CMakeFiles/SNAKE_GAME.dir/direction.cpp.obj
  C:/Users/rezan/CLionProjects/SNAKE_GAME/direction.cpp
  C:/Users/rezan/CLionProjects/SNAKE_GAME/direction.h
 CMakeFiles/SNAKE_GAME.dir/game.cpp.obj
+ ../curses.h
  C:/Users/rezan/CLionProjects/SNAKE_GAME/direction.h
  C:/Users/rezan/CLionProjects/SNAKE_GAME/game.cpp
  C:/Users/rezan/CLionProjects/SNAKE_GAME/game.h
@@ -26,6 +27,7 @@ CMakeFiles/SNAKE_GAME.dir/goal.cpp.obj
  C:/Users/rezan/CLionProjects/SNAKE_GAME/player.h
  C:/Users/rezan/CLionProjects/SNAKE_GAME/point.h
 CMakeFiles/SNAKE_GAME.dir/main.cpp.obj
+ ../curses.h
  C:/Users/rezan/CLionProjects/SNAKE_GAME/direction.h
  C:/Users/rezan/CLionProjects/SNAKE_GAME/game.h
  C:/Users/rezan/CLionProjects/SNAKE_GAME/gameover.h
